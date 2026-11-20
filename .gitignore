@@ -1,0 +1,49 @@
+
+# ==========================================
+# BizFlow - Root Git Ignore
+# ==========================================
+
+# Dependencies
+**/node_modules/
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs
+**/dist/
+**/dist-ssr/
+**/build/
+**/coverage/
+
+# Logs
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local and temporary files
+*.local
+*.tmp
+*.temp
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private keys and credentials
+*.pem
+*.key
+*service-account*.json
+*firebase-adminsdk*.json
